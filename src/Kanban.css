@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.container-drag {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.wip {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  left: 1%;
+  top: 10;
+  background-color: #eeeeee;
+  border: 1.2px solid darkslategrey;
+}
+
+.progress {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  right: 35%;
+  top: 10;
+  background-color: #eeeeee;
+  border: 1.2px solid darkslategrey;
+}
+
+.droppable {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  right: 2%;
+  top: 10;
+  background-color: #eeeeee;
+  border: 1.2px solid darkslategrey;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1px 1px 10px;
+  background-color: #9a85b5;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  height: 26px;
+  text-align: left;
+  border: 1.2px solid darkslategrey;
+}
+
+.task-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.draggable {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  background-color: yellow;
+  margin: 5px auto;
+}
+.addBtn {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.draggable .draginner button {
+  float: right;
+  width: 25%;
+  margin: 0 auto;
+  background-color: red;
+  color: blanchedalmond;
+  border: 1px solid tomato;
+  cursor: pointer;
+}
+.draggable p {
+  font-size: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+.popup {
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
